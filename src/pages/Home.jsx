@@ -4,7 +4,7 @@ import HomeHeroText from '../components/home/HomeHeroText'
 import HomeBottomText from '../components/home/HomeBottomText'
 const Home = () => {
   return (
-    <>
+    <div>
     <div className='h-screen w-screen fixed'>
     <Video/>
     </div>
@@ -12,7 +12,7 @@ const Home = () => {
      <HomeHeroText/>
      <HomeBottomText/>
     </div>
-    </>
+    </div>
 
   )
 }
