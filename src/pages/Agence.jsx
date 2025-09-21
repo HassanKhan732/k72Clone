@@ -1,11 +1,11 @@
 import React from 'react'
-
+import img1 from '/images/img1.jpg'
 const Agence = () => {
   return (
     <div>
  <div className='Section1'>
 <div className='h-[20vw] w-[15vw] absolute top-30 left-[30%] rounded-3xl overflow-hidden'>
-  <img src="https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg" alt="img"className='h-full w-full object-cover'/>
+  <img src={img1} alt="img"className='h-full w-full object-cover'/>
 </div>
    <div className='text-black font-[font2] relative'>
       <div className=' mt-[55vh]'>
@@ -30,3 +30,5 @@ const Agence = () => {
 }
 
 export default Agence
+
+// "https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg"
