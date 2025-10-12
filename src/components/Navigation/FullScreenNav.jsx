@@ -2,12 +2,12 @@ import React from 'react'
 
 const FullScreenNav = () => {
   return (
-    <div id='fullscreennav' className='absolute h-screen w-full bg-yellow-500'>
+    <div id='fullscreennav' className='absolute h-screen w-full bg-yellow-500 top-0'>
         <div id='all-links'>
 
-            <div className='link'>
+            <div className='link border-y-2'>
                 <h1>PROJECTS</h1>
-             <div>
+             {/* <div>
 
    
                     <div>
@@ -32,7 +32,7 @@ const FullScreenNav = () => {
                     </div>
 
 
-             </div>
+             </div> */}
 
             </div>
 

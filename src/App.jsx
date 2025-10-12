@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Agence from './pages/Agence'
 import Projects from './pages/Projects'
 import NavBar from './components/Navigation/NavBar'
+import FullScreenNav from './components/Navigation/FullScreenNav'
 
 
 const App = () => {
@@ -11,13 +12,13 @@ const App = () => {
 
   return (
     <div className='text-white'>
-
-       <NavBar/>
+<FullScreenNav/>
+       {/* <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agence" element={<Agence />} />
         <Route path="/projects" element={<Projects />} />
-      </Routes> 
+      </Routes>  */}
     </div>
   )
 }
