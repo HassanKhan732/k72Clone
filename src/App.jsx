@@ -4,9 +4,8 @@ import Home from './pages/Home'
 import Agence from './pages/Agence'
 import Projects from './pages/Projects'
 import NavBar from './components/Navigation/NavBar'
+
 import FullScreenNav from './components/Navigation/FullScreenNav'
-
-
 const App = () => {
  
 
