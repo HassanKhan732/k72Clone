@@ -32,14 +32,6 @@ const FullScreenNav = () => {
 
         </div>
 
-
-
-
-
-
-
-
-
         <div className='link border-t-1 border-white relative '>
           <h1 className='font-[font2] text-[8vw] uppercase text-white leading-[0.8] pt-4 text-center'>PROJECTS</h1>
           <div className='moveLink absolute flex top-0 bg-[#D3FD50] '>
@@ -67,20 +59,6 @@ const FullScreenNav = () => {
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div className='link border-t-1 border-white relative '>
           <h1 className='font-[font2] text-[8vw] uppercase text-white leading-[0.8] pt-4 text-center'>PROJECTS</h1>
           <div className='moveLink absolute flex top-0 bg-[#D3FD50] '>
@@ -107,25 +85,6 @@ const FullScreenNav = () => {
           
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div className='link border-t-1 border-b-1 border-white relative '>
           <h1 className='font-[font2] text-[8vw] uppercase text-white leading-[0.8] pt-4 text-center'>PROJECTS</h1>
@@ -153,13 +112,6 @@ const FullScreenNav = () => {
           
 
         </div>
-
-
-
-
-
-         
-
 
       </div>
     </div>
